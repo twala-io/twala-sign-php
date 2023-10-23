@@ -1,6 +1,6 @@
 {
     "name": "twala-io/twala-php",
-    "description": "The official PHP composer package of Twala for applications written in PHP.",
+    "description": "The official Twala SDK for applications written in PHP.",
     "license": "GPL-3.0",
     "type": "library",
     "authors": [
@@ -22,6 +22,7 @@
         "document"
     ],
     "require": {
+        "php-64bit": ">=7.3",
         "sop/asn1": "^3.3",
         "sop/crypto-encoding": "^0.2.0",
         "sop/crypto-types": "^0.2.1",
