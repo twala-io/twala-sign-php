@@ -1,0 +1,50 @@
+{
+    "name": "twala-io/twala-php",
+    "description": "The official PHP composer package of Twala for applications written in PHP.",
+    "license": "GPL-3.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Edil D. Salvador",
+            "email": "edil.salvador@twala.io"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/twala-io/twala-php.git"
+    },
+    "keywords": [
+        "twala",
+        "blockchain",
+        "web3",
+        "trust",
+        "identity",
+        "document"
+    ],
+    "require": {
+        "sop/asn1": "^3.3",
+        "sop/crypto-encoding": "^0.2.0",
+        "sop/crypto-types": "^0.2.1",
+        "kornrunner/keccak": "^1.0",
+        "ramsey/uuid": "^4.7",
+        "web3p/web3.php": "^0.2.1",
+        "web3p/ethereum-util": "^0.1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Twala\\": "src/",
+            "Twala\\Helpers\\": "src/Helpers"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Twala\\Test\\Unit\\" : "test/unit",
+            "Twala\\Test\\Unit\\Helpers\\" : "test/unit/Helpers"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
