@@ -44,6 +44,5 @@
             "Twala\\Test\\Unit\\" : "test/unit",
             "Twala\\Test\\Unit\\Helpers\\" : "test/unit/Helpers"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
